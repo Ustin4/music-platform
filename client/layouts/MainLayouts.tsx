@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from "@/components/Navbar";
-import {Container} from "@mui/material";
-
+import Container from '@mui/material/Container';
 const MainLayouts: React.FC = ({children}) => {
+
     return (
         <>
             <Navbar/>
