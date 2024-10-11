@@ -1,7 +1,12 @@
 import React from 'react';
 import Navbar from "@/components/Navbar";
 import Container from '@mui/material/Container';
-const MainLayouts: React.FC = ({children}) => {
+
+interface MainLayoutsProps {
+    children: React.ReactNode;
+}
+
+const MainLayouts: React.FC<MainLayoutsProps> = ({children}) => {
 
     return (
         <>
