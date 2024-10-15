@@ -1,5 +1,6 @@
-import * as PlayerActionCreator from '../action-creators/player'
+import * as PlayerActionCreator from './player'
 
 export default {
-...PlayerActionCreator,
+...PlayerActionCreator
 }
+
