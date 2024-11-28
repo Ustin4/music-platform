@@ -11,6 +11,7 @@ const initialState: PlayerInterface = {
 export const playerReducer = (state = initialState, action: PlayerAction): PlayerInterface => {
     switch (action.type) {
         case PlayerActionTypes.PAUSE:
+
             return {...state, paused:true}
         case PlayerActionTypes.PLAY:
             return {...state, paused:false}
